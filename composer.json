@@ -1,0 +1,24 @@
+{
+    "name": "bigbit/laravel-oddin",
+    "description": "Laravel Oddin support package",
+    "type": "library",
+    "require": {
+        "bigbit/oddin": "^1.0.0"
+    },
+    "require-dev": {
+        "laravel/laravel": "~6.0.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrzej heczko",
+            "email": "andrzej.heczko@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "BigBIT\\Oddin\\Support\\Laravel\\": "support/"
+        }
+    }
+}
