@@ -20,5 +20,12 @@
         "psr-4": {
             "BigBIT\\Oddin\\Support\\Laravel\\": "support/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BigBIT\\Oddin\\Support\\Laravel\\OddinProvider"
+            ]
+        }
     }
 }
