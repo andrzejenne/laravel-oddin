@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d5fe2b45564ededc00a1bf9245c0f0fb",
+    "content-hash": "e4b5074d6305321fb634d65be59d9b82",
     "packages": [
         {
             "name": "bigbit/di-bootstrap",
@@ -52,16 +52,16 @@
         },
         {
             "name": "bigbit/oddin",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/andrzejenne/oddin.git",
-                "reference": "7b7ea2ef13190125e736c3532ea9cfbce2eba7a5"
+                "reference": "02a270222149e455ca2f07223ab9f48702bc4de8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/andrzejenne/oddin/zipball/7b7ea2ef13190125e736c3532ea9cfbce2eba7a5",
-                "reference": "7b7ea2ef13190125e736c3532ea9cfbce2eba7a5",
+                "url": "https://api.github.com/repos/andrzejenne/oddin/zipball/02a270222149e455ca2f07223ab9f48702bc4de8",
+                "reference": "02a270222149e455ca2f07223ab9f48702bc4de8",
                 "shasum": ""
             },
             "require": {
@@ -83,13 +83,6 @@
                 "oddin"
             ],
             "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "BigBIT\\Oddin\\Support\\laravel\\Provider"
-                    ]
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "BigBIT\\Oddin\\": "src/",
@@ -108,7 +101,7 @@
                 }
             ],
             "description": "On Demand Dependency INjection",
-            "time": "2019-09-04T10:41:39+00:00"
+            "time": "2019-09-04T12:13:54+00:00"
         },
         {
             "name": "psr/container",
@@ -3056,6 +3049,8 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": "^7.2.0"
+    },
     "platform-dev": []
 }
